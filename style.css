@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fa8;
+}
+
+.bar {
+  width: 100%;
+  background-color: #088;
+}
+
+.bar .navbar {
+  width: 90%;
+  min-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 5px;
+  margin-left: 3%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.bar .navbar li {
+  list-style-type: none;
+}
+
+.bar .navbar li a {
+  display: block;
+  text-decoration: none;
+  color: #fa8;
+}
+
+.intro {
+  width: 100%;
+  background-color: #fa8;
+  min-height: 838px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro h1 {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  color: #fa8;
+  background-color: #854;
+}
+
+.summary {
+  min-height: 150px;
+  background-color: #fa8;
+}
+
+.summary h2 {
+  margin-left: 3%;
+  margin-bottom: 1%;
+  color: #ff0;
+  font-size: 24px;
+}
+
+.summary p {
+  width: 90%;
+  margin-bottom: 1%;
+  margin-left: 3%;
+  font-size: 16px;
+  color: #eee;
+}
+
+.photos {
+  width: 100%;
+  min-height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.photos .img-club {
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+.testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 420px;
+  background-color: #088;
+  color: #ff0;
+}
+
+.testimonial h2, .testimonial p {
+  padding: 10px;
+  margin-left: 3%;
+}
+
+.testimonial h2 {
+  font-size: 50px;
+}
+
+.meetup {
+  min-height: 790px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #ff0;
+}
+
+.meetup .meetup-img {
+  max-width: 50%;
+  height: auto;
+  padding: 10px;
+}
+
+.meetup p {
+  font-size: 30px;
+  margin: 1% auto 5% auto;
+}
+
+@media screen and (min-width: 1048px) {
+  .photos {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .photos .img-club {
+    max-width: 314px;
+    max-height: 210px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
